@@ -1,0 +1,91 @@
+body{
+    background-color: #1F242D;
+}
+.main h1 {
+    color: white;
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+}
+
+
+.inputs{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.inputsss{
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.inputs input {
+    background-color: #323946;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 2px solid #323946;
+}
+.inputsss input{
+    background-color: #323946;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 2px solid #323946;
+}
+.inputssss input{
+    height: 180px;
+    width: 400px;
+    background-color: #323946;
+    border: 2px solid #323946;
+    border-radius: 8px;
+}
+.inputssss{
+   display: flex;
+   justify-content: center;
+   padding-top: 20px;
+}
+.send{
+   display: flex;
+   justify-content: center;
+   padding-top: 50px;
+}
+.main button {
+    font-family: Poppins;
+    font-size: 14.1px;
+    font-weight: 600;
+    line-height: 21.15px;
+    letter-spacing: 0.8799999952316284px;
+    text-align: center;
+    background-color: #00EEFF;
+    border-radius: 10px;
+    border: 1px solid #00EEFF;
+}
+@media (max-width:1024px){
+
+}
+@media (max-width: 768px){
+
+}
+@media (max-width:390px){
+    .inputs{
+        display: block;
+        justify-content: center;
+    }
+    .inputsss{
+        display: block;
+    }
+    .inputssss{
+        width: 267px ;
+        padding-left: 70px;
+    }
+    .inputs , .inputsss{
+      padding-left: 100px;
+      padding-top: 20px;
+    }
+    .send{
+        padding-left: 20px  ;
+    }
+    
+}
